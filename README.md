@@ -1,13 +1,12 @@
 # Entanglement boosting
 
 - Open-source code for _Entanglement boosting: low-volume logical Bell pair preparation for large-scale fault-tolerant quantum computation_.
-- Authors: Shinichi Sunami, Yutaka Hirano, Toshihide Hinokuma and Hayata Yamasaki
 
 ## What is entanglement boosting?
 
 Entanglement boosting protocol prepares a high-fidelity logical Bell pair from noisy physical Bell pairs and additional physical qubits (see figure below). Similar to the _magic-state cultivation_ protocols, boosting begins with error detection with small code (projection onto surface code with variable $d_\mathcal{Bell}$, or `bell-distance`) and rapid escape to a larger code $d_s$ (`surface-distance`), followed by soft-output decoding and postselection based on the soft output (_complementary gap_). 
 
-![schematic-and-performance-plots](https://github.com/user-attachments/assets/a8ddfe9a-fe5e-4019-8016-c9760ce1b9e9)
+<img width="1469" height="639" alt="Image" src="https://github.com/user-attachments/assets/ee48a428-eea0-470c-ba47-1b9e8f8c3f0d" />
 
 ## Code usage
 
