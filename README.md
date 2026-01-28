@@ -68,7 +68,7 @@ Entanglement boosting protocol prepares a high-fidelity logical Bell pair from n
 ### Example
 
 ```sh
-python src/entanglement_distillation.py --num-shots 10000 --error-probability 0.001 --bell-error-probability 0.01 --surface-distance 9 --bell-distance 3  --parallelism 4 --show-progress
+python src/entanglement_boosting.py --num-shots 10000 --error-probability 0.001 --bell-error-probability 0.01 --surface-distance 9 --bell-distance 3  --parallelism 4 --show-progress
 ```
 
 This will run 10,000 shots of the entanglement boosting simulation with surface code distance ($d_s$) of 5, Bell distance ($d_\mathrm{Bell}$) of 3, Bell pair error probability 0.01 and local gate error probability 0.001, using 4 parallel processes and with a progress display.
