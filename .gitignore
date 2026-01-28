@@ -1,1 +1,21 @@
-__pycache__
+.DS_Store
+**/.DS_Store
+**/__pycache__/
+**/.vscode/
+**/.venv/
+~*
+
+# Python virtual environment
+sf/
+.env
+.venv
+env/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
